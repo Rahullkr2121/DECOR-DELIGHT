@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decor Delight</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Decor Delight</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to Decor Delight</h2>
+            <p>Explore our curated collection of exquisite decorations and home accents.</p>
+            <a href="#products" class="btn">Explore Collections</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Decor Delight, we believe in creating spaces that inspire and reflect your unique style. Our mission is to offer a diverse selection of high-quality decorations and home accents that elevate every room.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Discover Our Products</h2>
+            <div class="product">
+                <h3>Luxurious Textiles</h3>
+                <p>Add comfort and elegance with our collection of premium fabrics and cushions.</p>
+            </div>
+            <div class="product">
+                <h3>Captivating Art Pieces</h3>
+                <p>Enhance your walls with art that evokes emotion and creativity.</p>
+            </div>
+            <div class="product">
+                <h3>Chic Furniture</h3>
+                <p>From modern sofas to classic chairs, find furniture that complements your style.</p>
+            </div>
+            <div class="product">
+                <h3>Ambient Lighting</h3>
+                <p>Illuminate your space with stylish lighting solutions that set the mood.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Visit us at: 123 Decor Delight Avenue, City, Country</p>
+            <p>Email: info@decordelight.com</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+/* Reset and basic styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.product {
+    margin-bottom: 40px;
+}
+
+.product h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 10px;
+}
